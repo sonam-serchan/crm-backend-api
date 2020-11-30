@@ -1,0 +1,21 @@
+### User signup endpoint
+POST http://localhost:3001/v1/user
+Content-Type: application/json
+
+{
+  "name": "Sonam Serchan",
+  "company": "RelayPay",
+  "address":"Australia",
+  "phone":"045546733",
+  "email":"sonam@sercha.com",
+  "password":"32sjlfs"
+}
+
+### User sign in endpoint
+POST http://localhost:3001/v1/user/login
+Content-Type: application/json
+
+{
+  "email":"sonam@sercha.com",
+  "password":"32sjlfs"
+}
